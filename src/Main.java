@@ -22,10 +22,6 @@ class Countdown{
 	
 	private int i;
 	
-	//"thread interference" or as a "race condition"
-	
-	//creating two countdowns with their own thread or by implementing synchronisation, eliminates the race condition
-	
 	public void doCountdown() {
 		String colour;
 		
